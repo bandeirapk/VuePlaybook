@@ -1,6 +1,6 @@
 <template>
   <section>
-    <strong>{{ timed }}</strong>
+    <strong class="timer">{{ timed }}</strong>
   </section>
 </template>
 
@@ -20,3 +20,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.timer {
+  color: var(--text-primary);
+}
+</style>
